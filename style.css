@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,400;1,700&family=Ultra&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.hero{
+    width: 100vw;
+    height: 100vh;
+    background: url("./ass/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.nav img{
+    cursor: pointer;
+}
+.nav{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    overflow: hidden;
+}
+.nvlinks-nvsearch ul{
+    list-style: none;
+
+}
+.nvlinks-nvsearch ul li,a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.nvlinks-nvsearch ul li{
+    margin-right: 3rem;
+}
+.nvlinks-nvsearch li a:hover{
+    color: rgb(82, 230, 82);
+    border-bottom: 2px solid rgb(82, 230, 82);
+}
+.nvlinks-nvsearch{
+    display: flex;
+    align-items: center;
+
+}
+.search input{
+    outline: none;
+    background-color: transparent;
+    border: none;
+    color: white;
+    
+
+
+}
+.search button{
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+.search{
+    border: 3px solid green;
+    border-radius: 25px;
+    padding: 2px 1rem;
+}
+.mnu{
+    color: white;
+    margin-left: 2rem;
+    font-size: 30px;
+    font-family: Georgia;
+    transform: rotate(90deg);
+    cursor: pointer;
+}
+/* styles for hero main area */
+.hrtextl{
+    width: 40vw;
+    height: 90vh;
+    
+}
+.hero-main{
+    position: relative;
+    display: flex;
+    padding: 5vh 10vw ;
+}
+.hrtextl{
+    position: relative;
+    width: 300px;
+}
+.hrtextl p{
+    margin-top: 2rem;
+    color: white;
+
+}
+.tr1{
+    font-size: 2.4rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 40px;
+
+}
+.tr2{
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.hrtextl a{
+    margin-top: 2rem;
+    background-color: rgb(114, 231, 114);
+    color: black;
+    padding: .5rem 2rem;
+    font-weight: 700;
+    border-radius: 25px;
+    
+}
+.hrsocial{
+    margin-top: 3rem;
+
+}
+.hrsocial i{
+    font-size: 1rem;
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    padding: 4px 8px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.model img{
+    height: 75vh;
+}
+.model{
+    margin-top: 3rem;
+    position: absolute;
+    right: 10vw;
+}
+.hrtr{
+   position: absolute;
+   width: auto;
+   height: auto;
+   right: 10vw;
+}
+.hrtr p{
+    position: absolute;
+    color: white;
+    margin-top: 2rem;
+    font-weight: 600;
+    text-align: right;
+    margin-right: 2rem;
+    
+    
+
+}
+.sh{
+    position: absolute;
+}
+.sh2{
+    position: absolute;
+    right: -40px;
+    top: 200px;
+}
+.sh4{
+    bottom: 10vh;
+    left: 30vw;
+}
+.sh3{
+    left: 0;
+    top: 33vh;
+}
+@media only screen and (max-width:1158px){
+    .model{
+        right: 10vh;
+    }
+} 
